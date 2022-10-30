@@ -1,364 +1,364 @@
 Number of files enhanced: 60
 Output directory: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output
 ------------------
-Image: <PIL.Image.Image image mode=RGB size=1024x576 at 0x2574A37E370>
+Image: <PIL.Image.Image image mode=RGB size=400x400 at 0x212B2CEFAF0>
 Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\0.png
-Start time: 1667148151.6086438 seconds
-End time: 1667148151.6306503 seconds
-Time elapsed: 0.022006511688232422 seconds
+Start time: 1667149114.0616724 seconds
+End time: 1667149114.069674 seconds
+Time elapsed: 0.008001565933227539 seconds
 ------------------
-Image: <PIL.Image.Image image mode=RGB size=735x1125 at 0x2574A4A6190>
+Image: <PIL.Image.Image image mode=RGB size=1024x576 at 0x1F4E4E0FC70>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\0.png
+Start time: 1667149114.059672 seconds
+End time: 1667149114.0836773 seconds
+Time elapsed: 0.02400517463684082 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=640x586 at 0x212B2CEFAC0>
 Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\1.png
-Start time: 1667148151.7076662 seconds
-End time: 1667148151.750676 seconds
-Time elapsed: 0.04300975799560547 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=735x1038 at 0x2574A4A6160>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\2.png
-Start time: 1667148151.9747264 seconds
-End time: 1667148152.0067341 seconds
-Time elapsed: 0.032007694244384766 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=564x704 at 0x2574A4B5AF0>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\3.png
-Start time: 1667148152.0707479 seconds
-End time: 1667148152.086752 seconds
-Time elapsed: 0.016004085540771484 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=735x1040 at 0x2574A4A6550>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\4.png
-Start time: 1667148152.1517668 seconds
-End time: 1667148152.1807745 seconds
-Time elapsed: 0.029007673263549805 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=736x1009 at 0x2574A3671C0>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\5.png
-Start time: 1667148152.2347853 seconds
-End time: 1667148152.2647917 seconds
-Time elapsed: 0.03000640869140625 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=720x1066 at 0x2574A487100>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\6.png
-Start time: 1667148152.359814 seconds
-End time: 1667148152.3898208 seconds
-Time elapsed: 0.030006885528564453 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=360x360 at 0x2574A4B5B20>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\7.png
-Start time: 1667148152.4368312 seconds
-End time: 1667148152.4428318 seconds
-Time elapsed: 0.006000518798828125 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=735x1104 at 0x2574A4B51C0>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\8.png
-Start time: 1667148152.4678383 seconds
-End time: 1667148152.498845 seconds
-Time elapsed: 0.031006813049316406 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=480x625 at 0x2574A4B5BB0>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\9.png
-Start time: 1667148152.5748625 seconds
-End time: 1667148152.5868645 seconds
-Time elapsed: 0.012001991271972656 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=564x866 at 0x2574A4B5C10>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\10.png
-Start time: 1667148152.6418774 seconds
-End time: 1667148152.659881 seconds
-Time elapsed: 0.01800370216369629 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=736x1223 at 0x2574A4B5CA0>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\11.png
-Start time: 1667148152.792911 seconds
-End time: 1667148152.8259187 seconds
-Time elapsed: 0.03300762176513672 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=735x904 at 0x2574A4B5E50>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\12.png
-Start time: 1667148152.9329433 seconds
-End time: 1667148152.9589489 seconds
-Time elapsed: 0.02600550651550293 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=564x1002 at 0x2574A4B5E20>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\13.png
-Start time: 1667148153.0019588 seconds
-End time: 1667148153.0229633 seconds
-Time elapsed: 0.021004438400268555 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=564x1002 at 0x2574A4B5EE0>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\14.png
-Start time: 1667148153.064974 seconds
-End time: 1667148153.087978 seconds
-Time elapsed: 0.023003816604614258 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=683x1200 at 0x2574A8C6040>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\15.png
-Start time: 1667148153.149992 seconds
-End time: 1667148153.1819992 seconds
-Time elapsed: 0.03200721740722656 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=594x900 at 0x2574A8C6190>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\16.png
-Start time: 1667148153.2650182 seconds
-End time: 1667148153.2860224 seconds
-Time elapsed: 0.021004199981689453 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=736x730 at 0x2574A8C6250>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\17.png
-Start time: 1667148153.3440356 seconds
-End time: 1667148153.3660405 seconds
-Time elapsed: 0.02200484275817871 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=735x1011 at 0x2574A8C6220>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\18.png
-Start time: 1667148153.4850678 seconds
-End time: 1667148153.5150743 seconds
-Time elapsed: 0.03000640869140625 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=630x630 at 0x2574A8C62E0>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\19.png
-Start time: 1667148153.6170971 seconds
-End time: 1667148153.634101 seconds
-Time elapsed: 0.017003774642944336 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=563x797 at 0x2574A8C6490>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\20.png
-Start time: 1667148153.7121193 seconds
-End time: 1667148153.731123 seconds
-Time elapsed: 0.019003629684448242 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=688x688 at 0x2574A8C6550>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\21.png
-Start time: 1667148153.8281455 seconds
-End time: 1667148153.8481503 seconds
-Time elapsed: 0.020004749298095703 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=736x736 at 0x2574A8C6520>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\22.png
-Start time: 1667148153.9481723 seconds
-End time: 1667148153.9721777 seconds
-Time elapsed: 0.024005413055419922 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=736x736 at 0x2574A8C65E0>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\23.png
-Start time: 1667148154.0601974 seconds
-End time: 1667148154.0822024 seconds
-Time elapsed: 0.022005081176757812 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=736x1047 at 0x2574A8C66A0>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\24.png
-Start time: 1667148154.1512184 seconds
-End time: 1667148154.181226 seconds
-Time elapsed: 0.030007600784301758 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=460x818 at 0x2574A8C6760>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\25.png
-Start time: 1667148154.274246 seconds
-End time: 1667148154.2882485 seconds
-Time elapsed: 0.014002561569213867 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=736x1170 at 0x2574A8C6910>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\26.png
-Start time: 1667148154.3422613 seconds
-End time: 1667148154.375269 seconds
-Time elapsed: 0.03300762176513672 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=736x1067 at 0x2574A8C68E0>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\27.png
-Start time: 1667148154.5213015 seconds
-End time: 1667148154.5523095 seconds
-Time elapsed: 0.031008005142211914 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=735x1040 at 0x2574A8C69A0>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\28.png
-Start time: 1667148154.6323266 seconds
-End time: 1667148154.663334 seconds
-Time elapsed: 0.03100728988647461 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=563x742 at 0x2574A8C6B50>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\29.png
-Start time: 1667148154.7613559 seconds
-End time: 1667148154.7794538 seconds
-Time elapsed: 0.018097877502441406 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=564x564 at 0x2574A8C6B20>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\30.png
-Start time: 1667148154.8624709 seconds
-End time: 1667148154.8744733 seconds
-Time elapsed: 0.01200246810913086 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=724x1024 at 0x2574A8C6BE0>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\31.png
-Start time: 1667148154.9164832 seconds
-End time: 1667148154.94649 seconds
-Time elapsed: 0.030006885528564453 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=736x1041 at 0x2574A8C6D90>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\32.png
-Start time: 1667148155.0685174 seconds
-End time: 1667148155.1025248 seconds
-Time elapsed: 0.03400731086730957 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=736x832 at 0x2574A8C6D60>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\33.png
-Start time: 1667148155.2295535 seconds
-End time: 1667148155.2565591 seconds
-Time elapsed: 0.027005672454833984 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=543x767 at 0x2574A8C6F10>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\34.png
-Start time: 1667148155.3745863 seconds
-End time: 1667148155.395592 seconds
-Time elapsed: 0.021005630493164062 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=736x1070 at 0x2574A8C6EE0>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\35.png
-Start time: 1667148155.5226197 seconds
-End time: 1667148155.555628 seconds
-Time elapsed: 0.03300833702087402 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=736x1137 at 0x2574A8D5040>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\36.png
-Start time: 1667148155.6366456 seconds
-End time: 1667148155.669653 seconds
-Time elapsed: 0.03300738334655762 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=736x1137 at 0x2574A8D5190>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\37.png
-Start time: 1667148155.7486708 seconds
-End time: 1667148155.782679 seconds
-Time elapsed: 0.03400826454162598 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=540x958 at 0x2574A8D5160>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\38.png
-Start time: 1667148155.8716986 seconds
-End time: 1667148155.8947031 seconds
-Time elapsed: 0.023004531860351562 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=1920x1080 at 0x2574A8D5220>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\39.png
-Start time: 1667148156.0057297 seconds
-End time: 1667148156.0767453 seconds
-Time elapsed: 0.07101559638977051 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=736x735 at 0x2574A8C6F10>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\40.png
-Start time: 1667148156.316799 seconds
-End time: 1667148156.339804 seconds
-Time elapsed: 0.023005008697509766 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=736x1137 at 0x2574A8C6FD0>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\41.png
-Start time: 1667148156.4668329 seconds
-End time: 1667148156.5088422 seconds
-Time elapsed: 0.04200935363769531 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=676x1200 at 0x2574A8C6F40>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\42.png
-Start time: 1667148156.7038863 seconds
-End time: 1667148156.733893 seconds
-Time elapsed: 0.03000664710998535 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=564x797 at 0x2574A8C6E80>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\43.png
-Start time: 1667148156.8859277 seconds
-End time: 1667148156.9049315 seconds
-Time elapsed: 0.019003868103027344 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=533x838 at 0x2574A8C6DC0>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\44.png
-Start time: 1667148156.9769483 seconds
-End time: 1667148156.9999533 seconds
-Time elapsed: 0.023005008697509766 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=422x750 at 0x2574A8C6D00>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\45.png
-Start time: 1667148157.1080499 seconds
-End time: 1667148157.1230533 seconds
-Time elapsed: 0.015003442764282227 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=736x1308 at 0x2574A8C6C40>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\46.png
-Start time: 1667148157.2120733 seconds
-End time: 1667148157.2490819 seconds
-Time elapsed: 0.03700852394104004 seconds
-------------------
-Image: <PIL.Image.Image image mode=RGB size=600x800 at 0x2574A8C6B80>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\47.png
-Start time: 1667148157.3170967 seconds
-End time: 1667148157.3351007 seconds
+Start time: 1667149114.086678 seconds
+End time: 1667149114.104682 seconds
 Time elapsed: 0.01800394058227539 seconds
 ------------------
-Image: <PIL.Image.Image image mode=RGB size=723x1024 at 0x2574A8C6AC0>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\48.png
-Start time: 1667148157.3991156 seconds
-End time: 1667148157.4310513 seconds
-Time elapsed: 0.031935691833496094 seconds
+Image: <PIL.Image.Image image mode=RGB size=735x1125 at 0x212B2CEF6D0>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\2.png
+Start time: 1667149114.1586938 seconds
+End time: 1667149114.2007034 seconds
+Time elapsed: 0.042009592056274414 seconds
 ------------------
-Image: <PIL.Image.Image image mode=RGB size=735x924 at 0x2574A8C6A00>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\49.png
-Start time: 1667148157.589207 seconds
-End time: 1667148157.617214 seconds
-Time elapsed: 0.028007030487060547 seconds
+Image: <PIL.Image.Image image mode=RGB size=736x1307 at 0x1F4E4E0F8E0>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\1.png
+Start time: 1667149114.1616962 seconds
+End time: 1667149114.2067056 seconds
+Time elapsed: 0.04500937461853027 seconds
 ------------------
-Image: <PIL.Image.Image image mode=RGB size=1920x1080 at 0x2574A8C6940>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\50.png
-Start time: 1667148157.73324 seconds
-End time: 1667148157.806256 seconds
-Time elapsed: 0.07301616668701172 seconds
+Image: <PIL.Image.Image image mode=RGB size=564x797 at 0x1F4E4E0F850>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\2.png
+Start time: 1667149114.3327348 seconds
+End time: 1667149114.3587394 seconds
+Time elapsed: 0.026004552841186523 seconds
 ------------------
-Image: <PIL.Image.Image image mode=RGB size=735x1162 at 0x2574A8C6880>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\51.png
-Start time: 1667148158.1273975 seconds
-End time: 1667148158.1644056 seconds
-Time elapsed: 0.037008047103881836 seconds
+Image: <PIL.Image.Image image mode=RGB size=735x1038 at 0x1F4E4E0F580>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\3.png
+Start time: 1667149114.4357579 seconds
+End time: 1667149114.4687643 seconds
+Time elapsed: 0.03300642967224121 seconds
 ------------------
-Image: <PIL.Image.Image image mode=RGB size=736x1307 at 0x2574A8C67C0>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\52.png
-Start time: 1667148158.259427 seconds
-End time: 1667148158.3004365 seconds
-Time elapsed: 0.04100942611694336 seconds
+Image: <PIL.Image.Image image mode=RGB size=1920x1080 at 0x212B2CEF580>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\3.png
+Start time: 1667149114.4297554 seconds
+End time: 1667149114.5027719 seconds
+Time elapsed: 0.07301640510559082 seconds
 ------------------
-Image: <PIL.Image.Image image mode=RGB size=432x720 at 0x2574A8C6700>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\53.png
-Start time: 1667148158.4144616 seconds
-End time: 1667148158.4284654 seconds
-Time elapsed: 0.014003753662109375 seconds
+Image: <PIL.Image.Image image mode=RGB size=564x704 at 0x1F4E4D00280>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\4.png
+Start time: 1667149114.5357795 seconds
+End time: 1667149114.5537832 seconds
+Time elapsed: 0.01800370216369629 seconds
 ------------------
-Image: <PIL.Image.Image image mode=RGB size=675x1200 at 0x2574A8C6640>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\54.png
-Start time: 1667148158.4934802 seconds
-End time: 1667148158.5234866 seconds
-Time elapsed: 0.03000640869140625 seconds
+Image: <PIL.Image.Image image mode=RGB size=735x1040 at 0x1F4E4E0FD00>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\5.png
+Start time: 1667149114.6207988 seconds
+End time: 1667149114.6528056 seconds
+Time elapsed: 0.03200674057006836 seconds
 ------------------
-Image: <PIL.Image.Image image mode=RGB size=564x704 at 0x2574A8C6580>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\55.png
-Start time: 1667148158.6435142 seconds
-End time: 1667148158.6595175 seconds
-Time elapsed: 0.01600337028503418 seconds
+Image: <PIL.Image.Image image mode=RGB size=736x1009 at 0x1F4E4E0F880>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\6.png
+Start time: 1667149114.7138205 seconds
+End time: 1667149114.7458262 seconds
+Time elapsed: 0.03200578689575195 seconds
 ------------------
-Image: <PIL.Image.Image image mode=RGB size=640x586 at 0x2574A8C64C0>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\56.png
-Start time: 1667148158.7135298 seconds
-End time: 1667148158.728533 seconds
-Time elapsed: 0.015003204345703125 seconds
+Image: <PIL.Image.Image image mode=RGB size=683x1200 at 0x212B27E0280>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\4.png
+Start time: 1667149114.7628317 seconds
+End time: 1667149114.7968383 seconds
+Time elapsed: 0.034006595611572266 seconds
 ------------------
-Image: <PIL.Image.Image image mode=RGB size=720x663 at 0x2574A8C6400>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\57.png
-Start time: 1667148158.7795455 seconds
-End time: 1667148158.7985487 seconds
-Time elapsed: 0.01900315284729004 seconds
+Image: <PIL.Image.Image image mode=RGB size=480x625 at 0x1F4E4E0F700>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\7.png
+Start time: 1667149114.8390942 seconds
+End time: 1667149114.852095 seconds
+Time elapsed: 0.013000726699829102 seconds
 ------------------
-Image: <PIL.Image.Image image mode=RGB size=720x1280 at 0x2574A8C6340>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\58.png
-Start time: 1667148158.8645644 seconds
-End time: 1667148158.9005728 seconds
-Time elapsed: 0.036008358001708984 seconds
+Image: <PIL.Image.Image image mode=RGB size=360x360 at 0x212B2CEF670>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\5.png
+Start time: 1667149114.889105 seconds
+End time: 1667149114.895107 seconds
+Time elapsed: 0.006001949310302734 seconds
 ------------------
-Image: <PIL.Image.Image image mode=RGB size=400x400 at 0x2574A8C61C0>
-Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\59.png
-Start time: 1667148159.012597 seconds
-End time: 1667148159.0195982 seconds
-Time elapsed: 0.007001161575317383 seconds
+Image: <PIL.Image.Image image mode=RGB size=735x1104 at 0x1F4E4E0F940>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\8.png
+Start time: 1667149114.9131112 seconds
+End time: 1667149114.9521203 seconds
+Time elapsed: 0.03900909423828125 seconds
 ------------------
-Total time elapsed: 7.6540093421936035 seconds
+Image: <PIL.Image.Image image mode=RGB size=720x1066 at 0x212B2CEF880>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\6.png
+Start time: 1667149114.9201126 seconds
+End time: 1667149114.9561207 seconds
+Time elapsed: 0.03600811958312988 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=564x866 at 0x212B2CEFC40>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\7.png
+Start time: 1667149115.006134 seconds
+End time: 1667149115.02514 seconds
+Time elapsed: 0.019006013870239258 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=736x1223 at 0x1F4E3512C40>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\9.png
+Start time: 1667149115.0311399 seconds
+End time: 1667149115.0651474 seconds
+Time elapsed: 0.03400754928588867 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=735x904 at 0x212B2CEF8B0>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\8.png
+Start time: 1667149115.1601615 seconds
+End time: 1667149115.1921682 seconds
+Time elapsed: 0.03200674057006836 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=564x1002 at 0x1F4E4E4F970>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\10.png
+Start time: 1667149115.176165 seconds
+End time: 1667149115.2021706 seconds
+Time elapsed: 0.02600550651550293 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=564x1002 at 0x212B2887670>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\9.png
+Start time: 1667149115.2391796 seconds
+End time: 1667149115.2621841 seconds
+Time elapsed: 0.023004531860351562 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=594x900 at 0x1F4E4E0FB80>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\11.png
+Start time: 1667149115.245181 seconds
+End time: 1667149115.2661858 seconds
+Time elapsed: 0.021004676818847656 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=736x730 at 0x1F4E4E0F9D0>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\12.png
+Start time: 1667149115.3192 seconds
+End time: 1667149115.3412046 seconds
+Time elapsed: 0.02200460433959961 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=735x1011 at 0x212B2CEFC70>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\10.png
+Start time: 1667149115.324203 seconds
+End time: 1667149115.3552084 seconds
+Time elapsed: 0.031005382537841797 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=630x630 at 0x212B2CEF9D0>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\11.png
+Start time: 1667149115.4615018 seconds
+End time: 1667149115.4805021 seconds
+Time elapsed: 0.01900029182434082 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=563x797 at 0x1F4E4DA75E0>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\13.png
+Start time: 1667149115.4634984 seconds
+End time: 1667149115.4835024 seconds
+Time elapsed: 0.0200040340423584 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=688x688 at 0x212B2CEFA30>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\12.png
+Start time: 1667149115.5655396 seconds
+End time: 1667149115.586545 seconds
+Time elapsed: 0.02100539207458496 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=736x736 at 0x1F4E4E5B9D0>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\14.png
+Start time: 1667149115.5875442 seconds
+End time: 1667149115.612548 seconds
+Time elapsed: 0.025003910064697266 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=736x736 at 0x212B28875E0>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\13.png
+Start time: 1667149115.688779 seconds
+End time: 1667149115.7138324 seconds
+Time elapsed: 0.02505326271057129 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=736x1047 at 0x1F4E4E5B700>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\15.png
+Start time: 1667149115.7058308 seconds
+End time: 1667149115.7368374 seconds
+Time elapsed: 0.031006574630737305 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=460x818 at 0x212B2D3B640>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\14.png
+Start time: 1667149115.7798474 seconds
+End time: 1667149115.7954843 seconds
+Time elapsed: 0.015636920928955078 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=736x1170 at 0x1F4E4E5B760>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\16.png
+Start time: 1667149115.8354928 seconds
+End time: 1667149115.8695002 seconds
+Time elapsed: 0.03400731086730957 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=736x1067 at 0x212B2D3BA90>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\15.png
+Start time: 1667149115.8514965 seconds
+End time: 1667149115.8825035 seconds
+Time elapsed: 0.031007051467895508 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=735x1040 at 0x212B2D3BB50>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\16.png
+Start time: 1667149115.9637625 seconds
+End time: 1667149115.9977512 seconds
+Time elapsed: 0.03398871421813965 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=563x742 at 0x1F4E4E5B880>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\17.png
+Start time: 1667149116.016756 seconds
+End time: 1667149116.0347593 seconds
+Time elapsed: 0.018003225326538086 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=564x564 at 0x212B2D3BC10>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\17.png
+Start time: 1667149116.0977457 seconds
+End time: 1667149116.111749 seconds
+Time elapsed: 0.014003276824951172 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=724x1024 at 0x1F4E4E5B3A0>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\18.png
+Start time: 1667149116.1227522 seconds
+End time: 1667149116.1537592 seconds
+Time elapsed: 0.031007051467895508 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=736x1041 at 0x212B2D3B5E0>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\18.png
+Start time: 1667149116.1497574 seconds
+End time: 1667149116.1867442 seconds
+Time elapsed: 0.0369868278503418 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=736x832 at 0x1F4E4E5BCA0>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\19.png
+Start time: 1667149116.2775826 seconds
+End time: 1667149116.30775 seconds
+Time elapsed: 0.030167341232299805 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=543x767 at 0x212B2D3BCA0>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\19.png
+Start time: 1667149116.3137515 seconds
+End time: 1667149116.337757 seconds
+Time elapsed: 0.024005651473999023 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=736x1070 at 0x1F4E4E5BD60>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\20.png
+Start time: 1667149116.4318738 seconds
+End time: 1667149116.464882 seconds
+Time elapsed: 0.03300809860229492 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=736x1137 at 0x212B2D3BD60>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\20.png
+Start time: 1667149116.4638813 seconds
+End time: 1667149116.4978888 seconds
+Time elapsed: 0.03400754928588867 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=736x1137 at 0x1F4E4E5BBB0>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\21.png
+Start time: 1667149116.5468998 seconds
+End time: 1667149116.5834837 seconds
+Time elapsed: 0.036583900451660156 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=540x958 at 0x212B2D3BE20>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\21.png
+Start time: 1667149116.5744822 seconds
+End time: 1667149116.5987475 seconds
+Time elapsed: 0.024265289306640625 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=736x735 at 0x1F4E4E5B8B0>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\22.png
+Start time: 1667149116.6774752 seconds
+End time: 1667149116.7007892 seconds
+Time elapsed: 0.02331399917602539 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=736x1137 at 0x212B2D3B880>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\22.png
+Start time: 1667149116.706791 seconds
+End time: 1667149116.7518008 seconds
+Time elapsed: 0.04500985145568848 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=676x1200 at 0x1F4E4E5B5B0>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\23.png
+Start time: 1667149116.8338218 seconds
+End time: 1667149116.8658302 seconds
+Time elapsed: 0.03200840950012207 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=533x838 at 0x212B2D3BBE0>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\23.png
+Start time: 1667149116.948493 seconds
+End time: 1667149116.9725459 seconds
+Time elapsed: 0.024052858352661133 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=422x750 at 0x1F4E4E5B670>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\24.png
+Start time: 1667149117.0237515 seconds
+End time: 1667149117.0399463 seconds
+Time elapsed: 0.016194820404052734 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=736x1308 at 0x212B2D3B6D0>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\24.png
+Start time: 1667149117.0849562 seconds
+End time: 1667149117.122762 seconds
+Time elapsed: 0.037805795669555664 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=600x800 at 0x1F4E4E5BA60>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\25.png
+Start time: 1667149117.1247623 seconds
+End time: 1667149117.1437683 seconds
+Time elapsed: 0.019006013870239258 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=723x1024 at 0x212B2D3B730>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\25.png
+Start time: 1667149117.1947455 seconds
+End time: 1667149117.2274976 seconds
+Time elapsed: 0.032752037048339844 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=735x924 at 0x1F4E4E5BF10>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\26.png
+Start time: 1667149117.2104933 seconds
+End time: 1667149117.2405005 seconds
+Time elapsed: 0.030007123947143555 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=735x1162 at 0x212B2D3BEE0>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\26.png
+Start time: 1667149117.406158 seconds
+End time: 1667149117.444166 seconds
+Time elapsed: 0.03800797462463379 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=1920x1080 at 0x1F4E4E5BC40>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\27.png
+Start time: 1667149117.3791523 seconds
+End time: 1667149117.453168 seconds
+Time elapsed: 0.07401561737060547 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=432x720 at 0x212B2D3B940>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\27.png
+Start time: 1667149117.5392778 seconds
+End time: 1667149117.5545664 seconds
+Time elapsed: 0.015288591384887695 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=675x1200 at 0x212B2D3B610>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\28.png
+Start time: 1667149117.61658 seconds
+End time: 1667149117.6470847 seconds
+Time elapsed: 0.030504703521728516 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=564x704 at 0x212B2D3B400>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\29.png
+Start time: 1667149117.7683244 seconds
+End time: 1667149117.7853637 seconds
+Time elapsed: 0.01703929901123047 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=720x663 at 0x1F4E52711F0>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\28.png
+Start time: 1667149117.7763634 seconds
+End time: 1667149117.7953668 seconds
+Time elapsed: 0.01900339126586914 seconds
+------------------
+Image: <PIL.Image.Image image mode=RGB size=720x1280 at 0x1F4E4E5BE80>
+Output filename: C:\Users\Nicole Ocampo\Desktop\school\STDISCM\Project\STDISCM-Parallel-Programming-Project\Output\29.png
+Start time: 1667149117.8553789 seconds
+End time: 1667149117.8913875 seconds
+Time elapsed: 0.036008596420288086 seconds
+------------------
+Total time elapsed: 4.177994966506958 seconds
