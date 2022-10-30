@@ -28,7 +28,7 @@ class Consumer(multiprocessing.Process):
     def __init__(self, id, number_files, outfilepath, semaphore, buffer, brightness_factor, sharpness_factor, contrast_factor, text_file_cont):
         multiprocessing.Process.__init__(self)
         self.id = id
-        self.number_files = int(number_files/2)
+        self.number_files = int(number_files/3)
         self.outfilepath = outfilepath
         self.semaphore = semaphore
         self.buffer = buffer
@@ -121,19 +121,25 @@ if __name__ == "__main__":
 
     # Running multiprocessing
     start_time = time.time()
-    t1 = Consumer(1,number_files, outfilepath, semaphore, shared_resource_buffer, 
+    t1 = Producer(filepath, semaphore, shared_resource_buffer)
+    t2 = Consumer(1,number_files, outfilepath, semaphore, shared_resource_buffer, 
                   brightness_enhancement_factor, sharpness_enhancement_factor, 
                   contrast_enhancement_factor, text_file_cont)
     t3 = Consumer(2,number_files, outfilepath, semaphore, shared_resource_buffer, 
                   brightness_enhancement_factor, sharpness_enhancement_factor, 
                   contrast_enhancement_factor, text_file_cont)
-    t2 = Producer(filepath, semaphore, shared_resource_buffer)
+    t4 = Consumer(3,number_files, outfilepath, semaphore, shared_resource_buffer, 
+                  brightness_enhancement_factor, sharpness_enhancement_factor, 
+                  contrast_enhancement_factor, text_file_cont)            
+    
     t1.start()
     t2.start()
     t3.start()
+    t4.start()
     t1.join()
     t2.join()
     t3.join()
+    t4.join()
 
     # Finalization
     elapsed = time.time() - start_time
