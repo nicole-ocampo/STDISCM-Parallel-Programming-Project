@@ -1,6 +1,7 @@
 from PIL import Image, ImageEnhance
 import os
 import time
+import psutil
 
 def load(filepath):
     images = []
@@ -54,6 +55,7 @@ if __name__ == "__main__":
         text_file_cont.append("Start time: " + str(start_time) + " seconds")
         text_file_cont.append("End time: " + str(end_time) + " seconds")
         text_file_cont.append("Time elapsed: " + str(elapsed_time) + " seconds")
+        text_file_cont.append("CPU Usage: " + str(psutil.cpu_percent()))
         text_file_cont.append("------------------")
 
         image.save(savepath)

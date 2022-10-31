@@ -26,10 +26,10 @@ class Producer(multiprocessing.Process):
     
 
 class Consumer(multiprocessing.Process):
-    def __init__(self, id, number_files, outfilepath, semaphore, buffer, brightness_factor, sharpness_factor, contrast_factor, text_file_cont):
+    def __init__(self, id, number_files, num_workers, outfilepath, semaphore, buffer, brightness_factor, sharpness_factor, contrast_factor, text_file_cont):
         multiprocessing.Process.__init__(self)
         self.id = id
-        self.number_files = int(number_files/2)
+        self.number_files = int(number_files/num_workers)
         self.outfilepath = outfilepath
         self.semaphore = semaphore
         self.buffer = buffer
@@ -116,27 +116,32 @@ if __name__ == "__main__":
     contrast_enhancement_factor = input("Contrast Enhancement Factor: ")
     number_files = len(os.listdir(filepath))
 
+    # Running multiprocessing
+    start_time = time.time()
+    num_workers = psutil.cpu_count(logical = True) - 1 # 1 for producer
+    t1 = Producer(filepath, semaphore, shared_resource_buffer)
+    consumers = []
+
     # Output text file
     text_file_cont.append("Number of files enhanced: " + str(number_files))
     text_file_cont.append("Output directory: " + str(outfilepath))
+    text_file_cont.append("Number of Processes to spawn: " + str(num_workers+1))
     text_file_cont.append("------------------")
 
-    # Running multiprocessing
-    start_time = time.time()
-    t1 = Producer(filepath, semaphore, shared_resource_buffer)
-    t2 = Consumer(1,number_files, outfilepath, semaphore, shared_resource_buffer, 
-                  brightness_enhancement_factor, sharpness_enhancement_factor, 
-                  contrast_enhancement_factor, text_file_cont)
-    t3 = Consumer(2,number_files, outfilepath, semaphore, shared_resource_buffer, 
-                  brightness_enhancement_factor, sharpness_enhancement_factor, 
-                  contrast_enhancement_factor, text_file_cont) 
+    for i in range(num_workers):
+        worker = Consumer(i,number_files, num_workers, outfilepath, semaphore, shared_resource_buffer, 
+                    brightness_enhancement_factor, sharpness_enhancement_factor, 
+                    contrast_enhancement_factor, text_file_cont)
+        consumers.append(worker)
     
     t1.start()
-    t2.start()
-    t3.start()
+    for consumer in consumers:
+        consumer.start()
+
     t1.join()
-    t2.join()
-    t3.join()
+    for consumer in consumers:
+        consumer.join()
+
 
     # Finalization
     elapsed = time.time() - start_time

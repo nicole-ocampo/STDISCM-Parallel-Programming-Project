@@ -7,6 +7,7 @@ import threading
 # Libraries for tasks
 import os
 from PIL import Image, ImageEnhance
+import psutil
 
 class Producer(multiprocessing.Process):
     def __init__(self, filepath, semaphore, buffer):
@@ -73,6 +74,7 @@ class Consumer(multiprocessing.Process):
                 self.text_file_cont.append("Start time: " + str(start_time) + " seconds")
                 self.text_file_cont.append("End time: " + str(end_time) + " seconds")
                 self.text_file_cont.append("Time elapsed: " + str(elapsed_time) + " seconds")
+                self.text_file_cont.append("CPU Usage: " + str(psutil.cpu_percent()))
                 self.text_file_cont.append("------------------")
 
                 self.item.save(savepath)
