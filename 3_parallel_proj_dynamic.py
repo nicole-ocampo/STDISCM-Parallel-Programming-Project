@@ -26,7 +26,8 @@ class Producer(multiprocessing.Process):
     
 
 class Consumer(multiprocessing.Process):
-    def __init__(self, id, number_files, num_workers, outfilepath, semaphore, buffer, brightness_factor, sharpness_factor, contrast_factor, text_file_cont):
+    def __init__(self, id, number_files, num_workers, outfilepath, semaphore, buffer, brightness_factor, 
+                 sharpness_factor, contrast_factor, text_file_cont, ave_cpu):
         multiprocessing.Process.__init__(self)
         self.id = id
         self.number_files = int(number_files/num_workers)
@@ -37,6 +38,7 @@ class Consumer(multiprocessing.Process):
         self.sharpness_factor = float(sharpness_factor)
         self.contrast_factor = float(contrast_factor)
         self.text_file_cont = text_file_cont
+        self.ave_cpu = ave_cpu
 
         self.item = Image.new(mode="RGB", size=(200, 200))
 
@@ -65,7 +67,10 @@ class Consumer(multiprocessing.Process):
                 t3.join()
 
                 end_time = time.time()
+                cpu_usage= psutil.cpu_percent()
+
                 elapsed_time = end_time - start_time
+                self.ave_cpu.append(cpu_usage)
 
                 format = str(i) + ".png"
                 savepath = os.path.join(self.outfilepath, format) 
@@ -75,7 +80,7 @@ class Consumer(multiprocessing.Process):
                 self.text_file_cont.append("Start time: " + str(start_time) + " seconds")
                 self.text_file_cont.append("End time: " + str(end_time) + " seconds")
                 self.text_file_cont.append("Time elapsed: " + str(elapsed_time) + " seconds")
-                self.text_file_cont.append("CPU Usage: " + str(psutil.cpu_percent()))
+                self.text_file_cont.append("CPU Usage: " + str(cpu_usage))
                 self.text_file_cont.append("------------------")
 
                 self.item.save(savepath)
@@ -106,6 +111,7 @@ if __name__ == "__main__":
     manager = multiprocessing.Manager()
     shared_resource_buffer = manager.list()
     text_file_cont = manager.list()
+    ave_cpu = manager.list()
     semaphore = multiprocessing.Semaphore(0)
 
     # Input taking
@@ -131,7 +137,7 @@ if __name__ == "__main__":
     for i in range(num_workers):
         worker = Consumer(i,number_files, num_workers, outfilepath, semaphore, shared_resource_buffer, 
                     brightness_enhancement_factor, sharpness_enhancement_factor, 
-                    contrast_enhancement_factor, text_file_cont)
+                    contrast_enhancement_factor, text_file_cont, ave_cpu)
         consumers.append(worker)
     
     t1.start()
@@ -145,11 +151,14 @@ if __name__ == "__main__":
 
     # Finalization
     elapsed = time.time() - start_time
+    ave_cpu_final = sum(ave_cpu) / len(ave_cpu)
+
     print("--- Time elapsed: %s seconds ---" % (elapsed))
+    print("--- Average CPU Usage: %s ---" % (ave_cpu_final))
     with open('Statistics.txt', 'w') as f:
         for line in text_file_cont:
             f.write(line)
             f.write('\n')
         
-        f.write("Total time elapsed: " + str(elapsed) + " seconds")
+        f.write("Total time elapsed: " + str(ave_cpu_final) + " seconds")
 
