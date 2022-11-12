@@ -72,7 +72,7 @@ class Consumer(multiprocessing.Process):
                 elapsed_time = end_time - start_time
                 self.ave_cpu.append(cpu_usage)
 
-                format = str(i) + ".png"
+                format = str(i) + "-consumer-" + str(self.id) + ".png"
                 savepath = os.path.join(self.outfilepath, format) 
 
                 self.text_file_cont.append("Image: " + str(self.item))
@@ -124,7 +124,7 @@ if __name__ == "__main__":
 
     # Running multiprocessing
     start_time = time.time()
-    num_workers = psutil.cpu_count(logical = True) - 1 # 1 for producer
+    num_workers = psutil.cpu_count(logical = False) - 1 # 1 for producer
     t1 = Producer(filepath, semaphore, shared_resource_buffer)
     consumers = []
 
@@ -161,4 +161,3 @@ if __name__ == "__main__":
             f.write('\n')
         
         f.write("Total time elapsed: " + str(ave_cpu_final) + " seconds")
-

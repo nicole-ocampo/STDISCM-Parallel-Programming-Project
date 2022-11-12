@@ -150,4 +150,3 @@ if __name__ == "__main__":
         
         f.write("Total time elapsed: " + str(elapsed) + " seconds\n")
         f.write("Average CPU Usage: " + str(ave_cpu_final))
-
