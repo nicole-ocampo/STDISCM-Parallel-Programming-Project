@@ -28,42 +28,57 @@ if __name__ == "__main__":
     official_start = time.time()
     cpu_usage = []
 
+    enhancement_time = input("Enhancement time (in minutes): ")
+    enhancement_time = float(enhancement_time) * 60
+
     brightness_enhancement_factor = input("Brightness Enhancement Factor: ")
     sharpness_enhancement_factor = input("Sharpness Enhancement Factor: ")
     contrast_enhancement_factor = input("Contrast Enhancement Factor: ")
 
     # Output statistics file
     text_file_cont = []
-    text_file_cont.append("Number of files enhanced: " + str(number_files))
+    text_file_cont.append("Input number of files to be enhanced: " + str(number_files))
     text_file_cont.append("Output directory: " + str(outfilepath))
     text_file_cont.append("------------------")
 
     i=0
+    curr_time = time.time()
+    total_images_enhanced = 0
+
     for image in images:
-        start_time = time.time()
-        image = enhance_brightness(image, float(brightness_enhancement_factor))
-        image = enhance_sharpness(image, float(sharpness_enhancement_factor))
-        image = enhance_contrast(image, float(contrast_enhancement_factor))
+        curr_time = time.time()
 
-        end_time = time.time()
-        elapsed_time = time.time()
-        cpu_time = psutil.cpu_percent()
-        cpu_usage.append(cpu_time)
+        if (curr_time - official_start) < enhancement_time:
+            start_time = time.time()
+            image = enhance_brightness(image, float(brightness_enhancement_factor))
+            image = enhance_sharpness(image, float(sharpness_enhancement_factor))
+            image = enhance_contrast(image, float(contrast_enhancement_factor))
 
-        format = str(i) + ".png"
-        savepath = os.path.join(outfilepath, format) 
+            end_time = time.time()
+            elapsed_time = time.time()
+            cpu_time = psutil.cpu_percent()
+            cpu_usage.append(cpu_time)
 
-        text_file_cont.append("Image: " + str(image))
-        text_file_cont.append("Output filename: " + str(savepath))
-        text_file_cont.append("Start time: " + str(start_time) + " seconds")
-        text_file_cont.append("End time: " + str(end_time) + " seconds")
-        text_file_cont.append("Time elapsed: " + str(elapsed_time) + " seconds")
-        text_file_cont.append("CPU Usage: " + str(cpu_time))
-        text_file_cont.append("------------------")
+            format = str(i) + ".png"
+            savepath = os.path.join(outfilepath, format) 
 
-        image.save(savepath)
-        print("Enhanced an image!")
-        i+=1
+            text_file_cont.append("Image: " + str(image))
+            text_file_cont.append("Output filename: " + str(savepath))
+            text_file_cont.append("Start time: " + str(start_time) + " seconds")
+            text_file_cont.append("End time: " + str(end_time) + " seconds")
+            text_file_cont.append("Time elapsed: " + str(elapsed_time) + " seconds")
+            text_file_cont.append("CPU Usage: " + str(cpu_time))
+            text_file_cont.append("------------------")
+
+            image.save(savepath)
+            print("Enhanced an image!")
+            i+=1
+            total_images_enhanced+=1
+        else:
+            print("Enhancement time exceeded. Terminating...")
+            break
+
+
     
     elapsed = time.time() - official_start
     ave_cpu = sum(cpu_usage) / len(cpu_usage)
@@ -71,10 +86,13 @@ if __name__ == "__main__":
     # Finalization
     print("--- Time elapsed: %s seconds ---" % (elapsed))
     print("--- Average CPU Usage: %s  ---" % (ave_cpu))
+    print("--- Total Images Enhanced: %s  ---" % (total_images_enhanced))
+
     with open('Statistics.txt', 'w') as f:
         for line in text_file_cont:
             f.write(line)
             f.write('\n')
         
         f.write("Total time elapsed: " + str(elapsed) + " seconds\n")
-        f.write("Average CPU Usage: " + str(ave_cpu))
+        f.write("Average CPU Usage: " + str(ave_cpu) + " \n")
+        f.write("Total Images Enhanced: " + str(total_images_enhanced))
